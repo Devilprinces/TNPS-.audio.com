@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+    font-size: 20px;
+    
+}
+*{
+    margin:0px;
+    padding: 20px;
+    font-family: cursive;
+    background-color: rgb(243, 226, 204);
+
+
+}
+.container{
+    display: flex;
+
+    padding:px;
+}
+.div{
+    border-radius: 2px;
+    margin: 10px;
+    width: auto;
+    display:flex;
+    justify-items: flex-start;
+}
+.div:hover{
+    box-shadow:0 0 2px rgba(204, 103, 9, 0.452) ;
+    cursor: pointer;
+}

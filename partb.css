@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding: px;
+    background-color: antiquewhite;
+    font-family: cursive;
+}
+h2{
+    font-size: 40px;
+    padding: 10px;
+    
+}
+h3{
+    padding: 10px;
+    font-size:30px;
+}
+
+.container{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+    align-content:stretch;
+    
+    
+} 
+.div{
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    flex-flow: wrap;
+}
+
+ul li{
+    list-style-type:calc();
+    font-size: 13px;
+    padding: 4px;
+
+}
+.div:hover{
+    box-shadow:0 0 20px rgba(138, 93, 25, 0.37);
+}
+a{
+    font-size: 20px;
+}
+
+
